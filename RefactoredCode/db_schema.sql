@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS patients (
     gender TEXT NOT NULL,
     cpf TEXT NULL UNIQUE,
     zip_code TEXT DEFAULT NULL,
-	address_line TEXT DEFAULT NULL,
+	address_line TEXT DEFAULT  NULL,
 	district TEXT DEFAULT NULL,
  	address_number TEXT DEFAULT NULL,
 	city TEXT DEFAULT NULL, 
